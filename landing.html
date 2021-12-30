@@ -42,7 +42,7 @@
 </div>
             <div class="d-flex align-items-center" >
                 <div class="header-phone"><a href="tel: 88005553535" class="color-white">+7 495 363-39-75</a></div>
-                <a href="#" class="btn-gold btn-gold-header fw-700 fs-14">Узнать подробнее</a>
+                <a href="#" data-toggle="modal" data-target="#application" class="btn-gold btn-gold-header fw-700 fs-14">Узнать подробнее</a>
             </div>
       
 
@@ -94,7 +94,7 @@
             </div>
             <div class="circle-grey col-auto p-0">
                 <!-- <div class="d-flex justify-content-center fff w-100"> -->
-                    <img class="circle-grey-img" src="./assets/images/circle-grey.svg" alt="">
+                    <img class="circle-grey-img" src="./assets/images/circle-gold.svg" alt="">
                     <div class="fs-md-14 fs-13 fw-700">БОЛЕЕ</div>
                     <div class="fs-md-64 mb-3 circle-grey-64">21 000</div>
                     <div class="fs-md-16 fs-15">бань и саун в России</div>
@@ -386,6 +386,37 @@
        </div>
    </div>
 </footer>
+
+<!-- MODALS////////////////////////////////////////////// -->
+
+  <!-- Модальное окно -->
+  <div class="modal fade" id="application" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content modal-container modal-content-application">
+        <div class="modal-header" style="flex-direction: column; border-bottom: none;">
+          <h5 class="modal-title mb-12 fs-24 fw-700" id="modal-question">Оставьте заявку</h5>
+          <div>Оставьте контактные данные и мы вышлем презентацию (или демо-доступ) к агрегатору</div>
+          <svg class="close-btn close-btn-modal" data-dismiss="modal" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="close-btn-hover" d="M0.792893 29.2929C0.402369 29.6834 0.402369 30.3166 0.792893 30.7071C1.18342 31.0976 1.81658 31.0976 2.20711 30.7071L0.792893 29.2929ZM30.7071 2.2071C31.0976 1.81658 31.0976 1.18342 30.7071 0.792891C30.3166 0.402367 29.6834 0.402367 29.2929 0.792891L30.7071 2.2071ZM2.20711 30.7071L30.7071 2.2071L29.2929 0.792891L0.792893 29.2929L2.20711 30.7071Z" fill="#BEBEBE"/>
+            <path class="close-btn-hover" d="M2.20711 0.792893C1.81658 0.402369 1.18342 0.402369 0.792893 0.792893C0.402369 1.18342 0.402369 1.81658 0.792893 2.20711L2.20711 0.792893ZM29.2929 30.7071C29.6834 31.0976 30.3166 31.0976 30.7071 30.7071C31.0976 30.3166 31.0976 29.6834 30.7071 29.2929L29.2929 30.7071ZM0.792893 2.20711L29.2929 30.7071L30.7071 29.2929L2.20711 0.792893L0.792893 2.20711Z" fill="#BEBEBE"/>
+        </svg>
+        </div>
+        <div class="modal-body">
+            <input class="input-my col-12 mb-md-40 mb-4 input-my-margin" type="text" placeholder="ФИО">
+            <input type="email" placeholder="E-mail" class="input-my input-my-margin  col-12 mb-md-40 mb-4">
+            <input type="tel" placeholder="Телефон" class="input-my input-my-margin col-12 mb-md-40 mb-4">
+            <div class="btn-black col-12 mt-2" style="width: 100%;">
+              Отправить
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- ////////////////////////////////////////////// -->
+
  <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
