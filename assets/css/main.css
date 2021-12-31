@@ -376,6 +376,7 @@ width: fit-content;
 
 .modal-content-application{
     padding: 48px;
+    border-radius: 12px;
 }
 
 .close-btn{
@@ -397,4 +398,11 @@ width: fit-content;
 
 .input-my-margin{
 margin-bottom: 24px!important;
+}
+
+.mail-icon {
+    position: fixed;
+    bottom: 16px;
+    right: 64px;
+    cursor: pointer;
 }
