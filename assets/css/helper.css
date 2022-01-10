@@ -108,6 +108,11 @@
     html body .fs-14 h1, html body .fs-14 h2, html body .fs-14 h3, html body .fs-14 h4, html body .fs-14 h5, html body .fs-14 div, html body .fs-14 span, html body .fs-14 p, html body .fs-14 button, html body .fs-14 input, html body .fs-14 a, html body .fs-14 li {
       font-size: 0.875rem;
       line-height: 1.0625rem; }
+
+      html body .fs-15 h1, html body .fs-15 h2, html body .fs-15 h3, html body .fs-15 h4, html body .fs-15 h5, html body .fs-15 div, html body .fs-15 span, html body .fs-15 p, html body .fs-15 button, html body .fs-15 input, html body .fs-15 a, html body .fs-15 li {
+        font-size: 0.947rem;
+        line-height: 1.0925rem; }
+
   html body .fs-16 {
     font-size: 1rem;
     line-height: 1.225rem; }
